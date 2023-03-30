@@ -1,0 +1,51 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.team-card{
+    width: 300px;
+    max-height: 300px;
+    border: 2px solid gray;
+    padding: 20px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.team-image .box{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border-radius: 50%  ;
+}
+
+.team-content{
+    padding-top: 50px;
+    text-align: center;
+    opacity: 0;
+}
+
+.team-content h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.team-card:hover{
+    border-radius: 9px;
+}
+
+.team-card:hover .box{
+    top: -100px;
+}
+
+.team-card:hover .team-content{
+    opacity: 1;
+}

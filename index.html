@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Project</title>
+    <link rel="website icon" href="image/logo.png" class="fabe" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="image/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="toggleBtn()"
+          id="btn"
+        >
+          <span class="navbar-toggler-icon open" id="open">
+        
+          </span>
+          <!-- <span><i class=" navbar-toggle-icon fa-solid fa-x close" id="close"></i></span> -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Other</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-cont">
+            <div class="row ">
+              <div class="col-6-lg col-md-6 col-sm-12">
+                <h1>Get Fresh<i>&nbsp;Food</i><br />in a Easy Way</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Atque, nisi rerum error tempora optio ipsum facere numquam
+                  illo magni iure ipsam, asperiores expedita dignissimos.
+                  Corrupti voluptatibus ratione aliquam minus quos maiores
+                  repellat, adipisci eum vero voluptatum voluptate consectetur
+                  modi suscipit!
+                </p>
+                <div class="btn-w">
+                  <button type="button" class="btn btn-warning btn-lg">
+                    Warning&nbsp;
+                    <span><i class="fa-solid fa-angle-right"></i></span>
+                  
+                  </button>
+                </div>
+              </div>
+              <div class="col-6-lg col-md-6 col-sm-12 ">
+                <div class="main-image">
+                  <img src="image/main_img.png" alt="main-image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-section">
+        <div class="container">
+          <div class="about-cont">
+            <div class="row">
+              <div class="col-6-lg col-md-6 col-sm-12">
+                <div class="dish-image">
+                  <img src="image/Food-Plate.png" alt="dish" />
+                </div>
+              </div>
+              <div class="col-6-lg col-md-6 col-sm-12">
+                <div class="about-content">
+                  <h2><i>About</i> Us</h2>
+                  <h6>Why Choose us?</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo dolores ad, voluptates eveniet aspernatur enim iure
+                    praesentium deserunt nesciunt incidunt dolor officiis, id
+                    cupiditate blanditiis ipsum rerum nulla. Eius omnis quaerat
+                    veritatis. Magni totam, voluptatem alias quos veritatis
+                    neque earum.
+                  </p>
+                  <div class="btn-w">
+                    <button type="button" class="btn btn-warning btn-lg">
+                      Order Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu-section">
+        <div class="container">
+          <div class="menu-cont">
+            <h3>Our <i> Menu</i></h3>
+            <div class="row">
+              <div class="col-3-lg col-md-3 col-sm-12">
+                <div class="menu-container">
+                  <div class="menu-image">
+                    <img src="image/buger.jpg" alt="buger-image" />
+                  </div>
+                  <div class="menu-content">
+                    <h5>Buger</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <span>$20.00</span>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="oder-btn">
+                      <button class="btn btn-dark btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3-lg col-md-3 col-sm-12">
+                <div class="menu-container">
+                  <div class="menu-image">
+                    <img src="image/pasta.jpg" alt="pasta-image" />
+                  </div>
+                  <div class="menu-content">
+                    <h5>pasta</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <span>$20.00</span>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="oder-btn">
+                      <button class="btn btn-dark btn-lg">pasta Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3-lg col-md-3 col-sm-12">
+                <div class="menu-container">
+                  <div class="menu-image">
+                    <img src="image/lasagna.webp" alt="lasagna-image" />
+                  </div>
+                  <div class="menu-content">
+                    <h5>lasagna</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <span>$20.00</span>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="oder-btn">
+                      <button class="btn btn-dark btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3-lg col-md-3 col-sm-12">
+                <div class="menu-container">
+                  <div class="menu-image">
+                    <img
+                      src="image/chocolate_Drink.jpg"
+                      alt="chocolate-image"
+                    />
+                  </div>
+                  <div class="menu-content">
+                    <h5>Drink</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <span>$20.00</span>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="oder-btn">
+                      <button class="btn btn-dark btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3-lg col-md-3 col-sm-12">
+                <div class="menu-container">
+                  <div class="menu-image">
+                    <img src="image/pizza.jpg" alt="pizza-image" />
+                  </div>
+                  <div class="menu-content">
+                    <h5>pizza</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <span>$20.00</span>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="oder-btn">
+                      <button class="btn btn-dark btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3-lg col-md-3 col-sm-12">
+                <div class="menu-container">
+                  <div class="menu-image">
+                    <img src="image/Hot_dog.jpg" alt="pasta-image" />
+                  </div>
+                  <div class="menu-content">
+                    <h5>Hot Dog</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <span>$20.00</span>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="oder-btn">
+                      <button class="btn btn-dark btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3-lg col-md-3 col-sm-12">
+                <div class="menu-container">
+                  <div class="menu-image">
+                    <img src="image/juse.jpg" alt="juse-image" />
+                  </div>
+                  <div class="menu-content">
+                    <h5>Juse</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <span>$20.00</span>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="oder-btn">
+                      <button class="btn btn-dark btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3-lg col-md-3 col-sm-12">
+                <div class="menu-container">
+                  <div class="menu-image">
+                    <img src="image/biryani.webp" alt="biryani-image" />
+                  </div>
+                  <div class="menu-content">
+                    <h5>Biryani</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <span>$20.00</span>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="oder-btn">
+                      <button class="btn btn-dark btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallary-section">
+        <div class="container">
+          <div class="gallary-cont">
+            <h4>Our <i>Gallary</i></h4>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="gallary-container">
+                  <div class="gallary-image">
+                    <img src="image/gallary_1.jpg" alt="image" />
+                  </div>
+                  <div class="gallary-content">
+                    <h4>Food</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, mollitia.
+                    </p>
+                    <button class="btn-btn-dark">Order Now</button>
+                  </div>
+                </div>
+                <div class="gallary-container">
+                  <div class="gallary-image">
+                    <img src="image/gallary_4.jpg" alt="image" />
+                  </div>
+                  <div class="gallary-content">
+                    <h4>Food</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, mollitia.
+                    </p>
+                    <button class="btn-btn-dark">Order Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="gallary-container">
+                  <div class="gallary-image">
+                    <img src="image/gallary_2.jpg" alt="image" />
+                  </div>
+                  <div class="gallary-content">
+                    <h4>Food</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, mollitia.
+                    </p>
+                    <button class="btn-btn-dark">Order Now</button>
+                  </div>
+                </div>
+                <div class="gallary-container">
+                  <div class="gallary-image">
+                    <img src="image/gallary_5.jpg" alt="image" />
+                  </div>
+                  <div class="gallary-content">
+                    <h4>Food</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, mollitia.
+                    </p>
+                    <button class="btn-btn-dark">Order Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="gallary-container">
+                  <div class="gallary-image">
+                    <img src="image/gallary_3.jpg" alt="image" />
+                  </div>
+                  <div class="gallary-content">
+                    <h4>Food</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, mollitia.
+                    </p>
+                    <button class="btn-btn-dark">Order Now</button>
+                  </div>
+                </div>
+                <div class="gallary-container">
+                  <div class="gallary-image">
+                    <img src="image/gallary_4.jpg" alt="image" />
+                  </div>
+                  <div class="gallary-content">
+                    <h4>Food</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, mollitia.
+                    </p>
+                    <button class="btn-btn-dark">Order Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="review-section">
+        <div class="container">
+          <div class="review-cont">
+            <h4>Customer <i>Review</i></h4>
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="review-container">
+                  <div class="review-image">
+                    <img src="image/review_1.png" alt="review-image" />
+                    <h5>Kavita</h5>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review-icon">
+                      <span><i class="fa-brands fa-facebook-f"></i></span>
+                      <span><i class="fa-brands fa-instagram"></i></span>
+                      <span><i class="fa-brands fa-twitter"></i></span>
+                      <span><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                  </div>
+                  <div class="review-content">
+                   
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Esse facilis nihil officiis natus mollitia, odio ab
+                      voluptatem iusto tempore corrupti, aperiam laudantium quas
+                      asperiores eos dignissimos eaque illo officia enim. Error
+                      exercitationem, dolores quo iusto impedit, esse tempora
+                      molestias eaque vitae earum perspiciatis possimus alias?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                 <div class="review-container">
+                  <div class="review-image">
+                    <img src="image/review_4.png" alt="review-image" />
+                    <h5>John Deo</h5>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review-icon">
+                      <span><i class="fa-brands fa-facebook-f"></i></span>
+                      <span><i class="fa-brands fa-instagram"></i></span>
+                      <span><i class="fa-brands fa-twitter"></i></span>
+                      <span><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                  </div>
+                  <div class="review-content">
+                   
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Esse facilis nihil officiis natus mollitia, odio ab
+                      voluptatem iusto tempore corrupti, aperiam laudantium quas
+                      asperiores eos dignissimos eaque illo officia enim. Error
+                      exercitationem, dolores quo iusto impedit, esse tempora
+                      molestias eaque vitae earum perspiciatis possimus alias?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                 <div class="review-container">
+                  <div class="review-image">
+                    <img src="image/review_3.png" alt="review-image" />
+                    <h5>Radhika</h5>
+                    <div class="star-icon">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review-icon">
+                      <span><i class="fa-brands fa-facebook-f"></i></span>
+                      <span><i class="fa-brands fa-instagram"></i></span>
+                      <span><i class="fa-brands fa-twitter"></i></span>
+                      <span><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                  </div>
+                  <div class="review-content">
+                   
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Esse facilis nihil officiis natus mollitia, odio ab
+                      voluptatem iusto tempore corrupti, aperiam laudantium quas
+                      asperiores eos dignissimos eaque illo officia enim. Error
+                      exercitationem, dolores quo iusto impedit, esse tempora
+                      molestias eaque vitae earum perspiciatis possimus alias?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                 <div class="review-container">
+                  <div class="review-image">
+                    <img src="image/review_4.png" alt="review-image" />
+                    <h5>Hitanshi</h5>
+                    <div class="star-icon review-star">
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                      <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="review-icon">
+                      <span><i class="fa-brands fa-facebook-f"></i></span>
+                      <span><i class="fa-brands fa-instagram"></i></span>
+                      <span><i class="fa-brands fa-twitter"></i></span>
+                      <span><i class="fa-brands fa-linkedin"></i></span>
+                    </div>
+                  </div>
+                  <div class="review-content">
+                   
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Esse facilis nihil officiis natus mollitia, odio ab
+                      voluptatem iusto tempore corrupti, aperiam laudantium quas
+                      asperiores eos dignissimos eaque illo officia enim. Error
+                      exercitationem, dolores quo iusto impedit, esse tempora
+                      molestias eaque vitae earum perspiciatis possimus alias?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="now-section">
+        <div class="container">
+          <div class="now-cont">
+            <h5><i>Order </i> Now</h5>
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <div class="now-image">
+      <img src="image/order_image.png" alt="order-image">
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <div class="now-content">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <label>Name</label>
+        <br>
+        <input type="text" placeholder="you name" name="name">
+        <br>
+        <label>Number</label>
+        <br>
+        <input type="number" placeholder="you number" name="number">
+        <br>
+        <label>You Order</label>
+        <br>
+        <input type="text" placeholder="food name" name="name">
+        <br>
+        <div class="form-btn">
+<button class="btn btn-warning btn-1">Order Now</button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <label>Email</label>
+        <br>
+        <input type="Email" placeholder="you email" name="eamil">
+        <br>
+        <label>How Much</label>
+        <br>
+        <input type="number" placeholder="how many order" name="number">
+        <br>
+        <label>Address</label>
+        <br>
+        <input type="text" placeholder="you Address" name="name">
+        <br>
+        <div class="form-btn">
+          <button class="btn btn-warning btn-2">Order Now</button>
+                  </div>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+      <section class="team-section">
+        <div class="container">
+          <div class="team-cont">
+            <h4>Our <i>Team</i></h4>
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="team-card">
+                  <div class="team-container">
+                    <div class="team-image">
+                      <img src="image/chef1.png" alt="chef">
+                    </div>
+                    <div class="team-content">
+                      <h1>Rakesh</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       
+        </p>
+        <div class="team-icon">
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-linkedin"></i></span>
+        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="team-card">
+                  <div class="team-container">
+                    <div class="team-image">
+                      <img src="image/chef2.png" alt="chef">
+                    </div>
+                    <div class="team-content">
+                      <h1>Arpita</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       
+        </p>
+        <div class="team-icon">
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-linkedin"></i></span>
+        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="team-card">
+                  <div class="team-container">
+                    <div class="team-image">
+                      <img src="image/chef3.jpg" alt="chef">
+                    </div>
+                    <div class="team-content">
+                      <h1>Niraj</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       
+        </p>
+        <div class="team-icon">
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-linkedin"></i></span>
+        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="team-card">
+                  <div class="team-container">
+                    <div class="team-image">
+                      <img src="image/chef4.jpg" alt="chef">
+                    </div>
+                    <div class="team-content">
+                      <h1>Jon</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       
+        </p>
+        <div class="team-icon">
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-linkedin"></i></span>
+        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-cont">
+          <h1>Do Some Coding Pravesh Suthar</h1>
+        </div>
+      </div>
+    </footer>
+    <script
+    
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

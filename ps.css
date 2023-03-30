@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: radial-gradient(red,yellow);
+    height: 100px;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
